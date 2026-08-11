@@ -1,4 +1,4 @@
-﻿const BASE_URL = "http://localhost:8000";
+﻿const BASE_URL = "https://aivoa-qms-copilot.onrender.com";
 
 export async function sendChatMessage(threadId, message) {
   const res = await fetch(`${BASE_URL}/chat`, {
